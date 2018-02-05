@@ -7,6 +7,6 @@ Topic|File|Description
 **Topic 2**|fib2.py|Week 2 Assignment - Modify the script to calculate the unicode numversfor the first and last characters in your surname, i.e. ord(v)+ord(e).
 
 - [x] Submit Week one script
-- [ ] Submit Week two scrip
+- [x] Submit Week two scrip
 - [ ] Add outputs in comment section week 1
 - [ ] Add outputs in comment section week 2
