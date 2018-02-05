@@ -6,3 +6,7 @@ File|Description
 fib.py|Week 1 assignment
 fib2.py|Week 2 Assignment
 
+- [x] Submit Week one script
+- [ ] Submit Week two scrip
+- [ ] Add outputs in comment section week 1
+- [ ] Add outputs in comment section week 2
