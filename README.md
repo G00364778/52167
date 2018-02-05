@@ -1,10 +1,10 @@
 # GMIT 52167 -- PROGRAMMING AND SCRIPTING
 
 
-File|Description
-----|-----------
-fib.py|Week 1 assignment
-fib2.py|Week 2 Assignment
+Topic|File|Description
+-----|----|-----------
+**Topic 1**|fib.py|Week 1 assignment
+**Topic 2**|fib2.py|Week 2 Assignment
 
 - [x] Submit Week one script
 - [ ] Submit Week two scrip
