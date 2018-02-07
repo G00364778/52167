@@ -1,5 +1,19 @@
-# Ian McLoughlin
+# Gerhar van der Linde
+# Copied from Ian McLoughlin
 # A program that displays Fibonacci numbers using people's names.
+#
+# Re: Week 2 task
+# by GERHARD VAN DER LINDE - Tuesday, 30 January 2018, 8:40 PM
+#  
+# running  "python fibname.py" yields:
+# 
+# My surname is "van der Linde"
+# The first letter v is Unicode number 118
+# The last letter e is Unicode number 101
+# The Fibonacci number for the sum of the Unicode numbers 219 is 2623059926317798754175087863660165740874359106
+# ================ About the Python ord() function ==================
+# One of the many Python built-in functions is ord().
+# The ord() function returns an integer value representing the Unicode value of the character passed to ord().
 
 def fib(n):
   """This function returns the nth Fibonacci number."""
