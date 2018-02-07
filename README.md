@@ -9,6 +9,7 @@ Topic|File|Description
 
 - [x] Submit Week one script
 - [x] Submit Week two scrip
-- [ ] Add outputs in comment section week 1
-- [ ] Add outputs in comment section week 2
-- [ ] Submit Week three excercise
+- [x] Add outputs in comment section week 1
+- [x] Add outputs in comment section week 2
+- [x] Submit Week three excercise
+- [x] Submitgit link on class form
