@@ -1,5 +1,10 @@
-# Ian McLoughlin
+# Gerhard van der Linde
 # A program that displays Fibonacci numbers.
+# Re: Fibonacci exercise responses
+# by GERHARD VAN DER LINDE - Monday, 22 January 2018, 4:14 PM
+#  
+# My name is Gerhard, so the first and last letter of my name (G + D = 7 + 4) give the number 11. The 25th Fibonacci number is 89. 
+
 
 def fib(n):
     """This function returns the nth Fibonacci number."""
