@@ -13,4 +13,4 @@ Topic|File|Description
 - [x] Add outputs in comment section week 1
 - [x] Add outputs in comment section week 2
 - [x] Submit Week three excercise
-- [x] Submitgit link on class form
+- [x] Submit git link on class form
