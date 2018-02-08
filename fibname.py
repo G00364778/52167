@@ -1,4 +1,16 @@
-# Gerhar van der Linde
+# Topic 1: Basics of programming - Excercise 1
+# Gerhard van der Linde
+# Copied from Ian McLoughlin
+# A program that displays Fibonacci numbers.
+#
+# Re: Fibonacci exercise responses
+# by GERHARD VAN DER LINDE - Monday, 22 January 2018, 4:14 PM
+#  
+# My name is Gerhard, so the first and last letter of my name (G + D = 7 + 4) give the number 11. The 25th Fibonacci number is 89. 
+
+
+# Topic 2: State, variables and statements - Excercise 2
+# Gerhard van der Linde
 # Copied from Ian McLoughlin
 # A program that displays Fibonacci numbers using people's names.
 #
