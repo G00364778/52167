@@ -20,13 +20,18 @@ import time # to calculate the execution time
 foundanswer=False # set the starting condition of the value to false
 c=20 # Start the test value at twenty
 maxval=20
+#devisors=[2,3,5,7,11,13,17,19]
+devisors=[11,13,14,15,16,17,18,19]
+#devisors=[11,12,13,14,15,16,17,18,19]
 
 tstart=time.time()
 while foundanswer == False:
     c+=20 # increment the test value by twenty every cycle the answer is not found
     testval=0 # reset the testval for the next test cyle
-    for x in range(11,maxval+1):
-        testval+=c%x # sum all the test values and test for zero
+    #for x in range(11,maxval+1):
+    for x in range(len(devisors)):
+        #print(c,devisors[x],c%devisors[x])
+        testval+=c%devisors[x] # sum all the test values and test for zero
     if testval==0:
         foundanswer=True
         tend=time.time()
