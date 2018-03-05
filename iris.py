@@ -9,7 +9,7 @@ def makefloat(teststr):
   except:
     return teststr # otherwise return the string as is
 
-with open('data\iris.csv','r') as file: #open and read the csv file
+with open(r'data\iris.csv','r') as file: #open and read the csv file
     for line in file: # loop through the file a line at a time
         dat=line.strip().split(',') # strip the space and newline and split on commas
         dat=[makefloat(i) for i in dat] # user function to convert list to floats in numbers

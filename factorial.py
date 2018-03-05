@@ -8,10 +8,8 @@ def factorial(num):
     return answer
 
 x=[5,7,9]
-
-for i in range(len(x)):
-    fact=factorial(x[i])
-    print ('The factorial of {} is: {}'.format(x[i],fact))
+for i in x:
+    print (f'The factorial of {i:1d} is: {factorial(i):6d}')
 
 # Sample output of script
 # The factorial of 5 is: 120
