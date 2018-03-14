@@ -43,27 +43,27 @@ while foundanswer == False:
 
 # A lengthy group discussion on the topic showed some smarter mathmatical approaches is possible. 
 
-#	Pfact   	Prime	Prime Multiple	N
-# 1	 -			
-# 2	 2 	        y		                2
-# 3	 3	        y		                3
-# 4	 2x2		        y	            2
-# 5	 5 	        y		                5
-# 6	 2x3			
-# 7	 7	        y		                7
-# 8	 2x2x2		        y               2
-# 9	 3x3		        y	            3
-# 10 2x5			
-# 11 11	        y		                11
-# 12 2x2x3			
-# 13 13	        y		                13
-# 14 2x7			
-# 15 3x5			
-# 16 2x2x2x2		    y	            2
-# 17 17	        y		                17
-# 18 2x3x3			
-# 19 19	        y		                19
-# 20 2x2x5			
+# n  Pfact   Prime   Prime Multiple  N
+# 1  -
+# 2  2       y                       2
+# 3  3       y                       3
+# 4  2x2             y               2
+# 5  5       y                       5
+# 6  2x3                              
+# 7  7       y                       7
+# 8  2x2x2           y               2
+# 9  3x3             y               3
+# 10 2x5                              
+# 11 11      y                      11
+# 12 2x2x3                            
+# 13 13      y                      13
+# 14 2x7                              
+# 15 3x5                              
+# 16 2x2x2x2         y               2
+# 17 17      y                      17
+# 18 2x3x3                            
+# 19 19      y                      19
+# 20 2x2x5                            
 
 # So in order to calculate the number the table above aims to provide a mathmatical guid
 # for developing an improved algorythm to solve the question.
@@ -81,8 +81,9 @@ while foundanswer == False:
 import numpy as np # to calculate product of list N
 import time # to calculate the execution time
 tstart=time.time()
-TestRange = 20
-max_r=int(TestRange**.5)
+TestRange = 27
+max_r=int(TestRange**.5)# experimental - not sure about this
+#max_r=TestRange
 print('\n                     Test range: 1 - ',TestRange)
 #print('max_r:',max_r) # determine the range of primes to explore for factors
 #l=[i for i in range(2,TestRange+1)] # generate a list of numbers to test
